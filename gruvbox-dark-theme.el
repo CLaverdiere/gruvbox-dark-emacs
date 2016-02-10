@@ -533,7 +533,11 @@
    `(diredp-read-priv              ((t (:foreground ,gruvbox-neutral_purple))))
    `(diredp-symlink                ((t (:foreground ,gruvbox-neutral_aqua :slant italic))))
    `(diredp-tagged-autofile-name   ((t (:background ,gruvbox-dark0_s :foreground ,gruvbox-light2))))
-   `(diredp-write-priv             ((t (:foreground ,gruvbox-neutral_orange))))))
+   `(diredp-write-priv             ((t (:foreground ,gruvbox-neutral_orange))))
+
+   ;; ert
+   '(ert-test-result-expected   ((t (:inherit success))))
+   '(ert-test-result-unexpected ((t (:inherit error))))))
 
 ;;;###autoload
 (and load-file-name
