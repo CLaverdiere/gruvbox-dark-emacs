@@ -374,6 +374,7 @@
    `(anzu-replace-to ((t (:foreground ,gruvbox-bright_yellow))))
 
    ;; company-mode
+   `(company-echo-common                  ((t (:foreground ,gruvbox-bright_green))))
    `(company-tooltip                      ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-light1))))
    `(company-tooltip-annotation           ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-bright_orange))))
    '(company-tooltip-annotation-selection ((t (:inverse-video t :inherit company-tooltip-annotation))))
@@ -384,8 +385,8 @@
    `(company-scrollbar-fg                 ((t (:background ,gruvbox-light1))))
    `(company-scrollbar-bg                 ((t (:background ,gruvbox-light3))))
    `(company-template-field               ((t (:background ,gruvbox-bright_yellow :foreground ,gruvbox-dark0))))
-   `(company-preview                      ((t (:foreground ,gruvbox-bright_aqua))))
-   '(company-preview-common               ((t (:inherit company-preview))))
+   `(company-preview                      ((t (:foreground ,gruvbox-bright_green))))
+   '(company-preview-common               ((t (:inverse-video t :inherit company-preview))))
    `(company-preview-search               ((t (:background ,gruvbox-bright_aqua :foreground ,gruvbox-dark0))))
 
    ;; AUCTeX
