@@ -448,7 +448,7 @@
 
    ;; comint
    '(comint-highlight-input  ((t (:weight bold))))
-   `(comint-highlight-prompt ((t (:foreground ,gruvbox-bright_aqua))))
+   `(comint-highlight-prompt ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
 
    ;; SLIME
    '(slime-repl-input-face            ((t (:weight bold))))
@@ -456,7 +456,7 @@
    `(slime-repl-output-face           ((t (:foreground ,gruvbox-bright_green))))
    `(slime-repl-output-mouseover-face ((t (:box (:line-width -1 :color ,gruvbox-bright_gray :style released-button)
                                                 :inherit slime-repl-output-face))))
-   `(slime-repl-prompt-face           ((t (:foreground ,gruvbox-bright_aqua))))
+   `(slime-repl-prompt-face           ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
    `(slime-repl-result-face           ((t (:foreground ,gruvbox-bright_purple))))
 
    `(slime-error-face
