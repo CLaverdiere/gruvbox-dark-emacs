@@ -543,7 +543,21 @@
 
    ;; ert
    '(ert-test-result-expected   ((t (:inherit success))))
-   '(ert-test-result-unexpected ((t (:inherit error))))))
+   '(ert-test-result-unexpected ((t (:inherit error))))
+
+   ;; eshell
+   `(eshell-ls-archive          ((t (:foreground ,gruvbox-neutral_red :weight bold))))
+   `(eshell-ls-backup           ((t (:foreground ,gruvbox-neutral_gray))))
+   `(eshell-ls-clutter          ((t (:foreground ,gruvbox-dark4))))
+   `(eshell-ls-directory        ((t (:foreground ,gruvbox-neutral_blue :weight bold))))
+   `(eshell-ls-executable       ((t (:foreground ,gruvbox-neutral_green :weight bold))))
+   `(eshell-ls-missing          ((t (:foreground ,gruvbox-neutral_orange :weight bold))))
+   `(eshell-ls-product          ((t (:foreground ,gruvbox-light4))))
+   `(eshell-ls-readonly         ((t (:foreground ,gruvbox-neutral_purple :weight bold))))
+   `(eshell-ls-special          ((t (:background ,gruvbox-dark0_s :foreground ,gruvbox-bright_purple :weight bold))))
+   `(eshell-ls-symlink          ((t (:foreground ,gruvbox-neutral_aqua :weight bold))))
+   `(eshell-ls-unreadable       ((t (:foreground ,gruvbox-neutral_yellow))))
+   `(eshell-prompt              ((t (:foreground ,gruvbox-bright_aqua :weight bold))))))
 
 ;;;###autoload
 (and load-file-name
