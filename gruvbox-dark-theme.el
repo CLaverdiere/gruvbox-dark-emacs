@@ -455,7 +455,7 @@
    `(slime-repl-inputed-output-face   ((t (:foreground ,gruvbox-bright_red))))
    `(slime-repl-output-face           ((t (:foreground ,gruvbox-bright_green))))
    `(slime-repl-output-mouseover-face ((t (:box (:line-width -1 :color ,gruvbox-bright_gray :style released-button)
-                                                :inherit slime-repl-output-face))))
+                                                :inherit slime-repl-inputed-output-face))))
    `(slime-repl-prompt-face           ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
    `(slime-repl-result-face           ((t (:foreground ,gruvbox-bright_purple))))
 
@@ -475,6 +475,9 @@
      ((((supports :underline (:style wave)))
        (:underline (:style wave :color ,gruvbox-bright_green)))
       (t (:underline ,gruvbox-bright_green))))
+
+   `(sldb-restartable-frame-line-face ((t (:foreground ,gruvbox-bright_green))))
+   '(sldb-topline-face                ((t (:weight bold))))
 
    ;; avy
    '(avy-background-face      ((t (:inherit shadow))))
