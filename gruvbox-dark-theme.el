@@ -476,6 +476,7 @@
        (:underline (:style wave :color ,gruvbox-bright_green)))
       (t (:underline ,gruvbox-bright_green))))
 
+   `(sldb-frame-label-face            ((t (:foreground ,gruvbox-dark4))))
    `(sldb-restartable-frame-line-face ((t (:foreground ,gruvbox-bright_green))))
    '(sldb-topline-face                ((t (:weight bold))))
 
@@ -560,7 +561,27 @@
    `(eshell-ls-special          ((t (:background ,gruvbox-dark0_s :foreground ,gruvbox-bright_purple :weight bold))))
    `(eshell-ls-symlink          ((t (:foreground ,gruvbox-neutral_aqua :weight bold))))
    `(eshell-ls-unreadable       ((t (:foreground ,gruvbox-neutral_yellow))))
-   `(eshell-prompt              ((t (:foreground ,gruvbox-bright_aqua :weight bold))))))
+   `(eshell-prompt              ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
+
+   ;; {ansi-,}term
+   `(term-color-black    ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark0))))
+   `(term-color-blue     ((t (:background ,gruvbox-neutral_green :foreground ,gruvbox-neutral_blue))))
+   `(term-color-cyan     ((t (:background ,gruvbox-neutral_aqua :foreground ,gruvbox-neutral_aqua))))
+   `(term-color-green    ((t (:background ,gruvbox-neutral_green :foreground ,gruvbox-neutral_green))))
+   `(term-color-magenta  ((t (:background ,gruvbox-neutral_purple :foreground ,gruvbox-neutral_purple))))
+   `(term-color-red      ((t (:background ,gruvbox-neutral_red :foreground ,gruvbox-neutral_red))))
+   `(term-color-white    ((t (:background ,gruvbox-light1 :foreground ,gruvbox-light1))))
+   `(term-color-yellow   ((t (:background ,gruvbox-neutral_yellow :foreground ,gruvbox-neutral_yellow)))))
+
+  (custom-theme-set-variables
+   'gruvbox-dark
+
+   ;; fci-mode
+   `(fci-rule-color ,gruvbox-neutral_blue)
+
+   ;; ansi-colors
+   `(ansi-color-names-vector [,gruvbox-dark0 ,gruvbox-bright_red ,gruvbox-bright_green ,gruvbox-bright_yellow
+                                             ,gruvbox-bright_blue ,gruvbox-bright_purple ,gruvbox-bright_aqua ,gruvbox-light1])))
 
 ;;;###autoload
 (and load-file-name
