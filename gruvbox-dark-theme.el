@@ -571,7 +571,11 @@
    `(term-color-magenta  ((t (:background ,gruvbox-neutral_purple :foreground ,gruvbox-neutral_purple))))
    `(term-color-red      ((t (:background ,gruvbox-neutral_red :foreground ,gruvbox-neutral_red))))
    `(term-color-white    ((t (:background ,gruvbox-light1 :foreground ,gruvbox-light1))))
-   `(term-color-yellow   ((t (:background ,gruvbox-neutral_yellow :foreground ,gruvbox-neutral_yellow)))))
+   `(term-color-yellow   ((t (:background ,gruvbox-neutral_yellow :foreground ,gruvbox-neutral_yellow))))
+
+   ;; info
+   `(info-menu-star ((t (:foreground ,gruvbox-bright_red))))
+   `(info-node      ((t (:foreground ,gruvbox-bright_orange :weight bold :slant italic)))))
 
   (custom-theme-set-variables
    'gruvbox-dark
