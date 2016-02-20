@@ -2,7 +2,7 @@
 
 ;; Copyright (c) 2016 Dario Gjorgjevski
 
-;; Author: Dario Gjorgjevski <dario.gjorgjevski@gmail.com>
+;; Author: Dario Gjorgjevski <dario.gjorgjevski@.com>
 ;; URL: http://github.com/d125q/gruvbox-dark-emacs
 ;; Version: 0.1
 
@@ -87,43 +87,43 @@
     'gruvbox-dark
 
     ;; basic coloring
-    '(button                            ((t (:underline t))))
-    `(link                              ((t (:foreground ,gruvbox-bright_blue :weight bold :underline t))))
-    `(link-visited                      ((t (:foreground ,gruvbox-bright_purple :weight bold :underline t))))
-    `(default                           ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-light1))))
-    `(cursor                            ((t (:background ,gruvbox-light1))))
-    `(escape-glyph                      ((t (:foreground ,gruvbox-bright_aqua))))
-    `(trailing-whitespace               ((t (:background ,gruvbox-bright_red))))
-    `(fringe                            ((t (:foreground ,gruvbox-light3))))
-    `(header-line                       ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-bright_yellow))))
-    `(vertical-border                   ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-dark4))))
-    `(highlight                         ((t (:background ,gruvbox-dark2))))
-    `(lazy-highlight                    ((t (:background ,gruvbox-bright_yellow :foreground ,gruvbox-dark0))))
-    `(success                           ((t (:foreground ,gruvbox-bright_green :weight bold))))
-    `(warning                           ((t (:foreground ,gruvbox-bright_orange :weight bold))))
-    `(error                             ((t (:foreground ,gruvbox-bright_red :weight bold))))
-    `(match                             ((t (:background ,gruvbox-bright_orange :foreground ,gruvbox-dark0))))
-    `(shadow                            ((t (:foreground ,gruvbox-neutral_gray))))
-    `(mode-line                         ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-light1))))
-    `(mode-line-inactive                ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-dark4))))
-    `(mode-line-buffer-id               ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
-    `(mode-line-highlight               ((t (:box (:line-width -1 :color ,gruvbox-bright_gray :style released-button)))))
-    `(region                            ((t (:inverse-video t))))
-    `(secondary-selection               ((t (:background ,gruvbox-dark0_s))))
-    `(minibuffer-prompt                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-bright_green :weight bold))))
-    `(menu                              ((t (:background ,gruvbox-dark2 :foreground ,gruvbox-light1))))
-    `(tooltip                           ((t (:background ,gruvbox-dark2 :foreground ,gruvbox-light1))))
+    '(button              ((t (:underline t))))
+    `(link                ((t (:foreground ,gruvbox-bright_blue :weight bold :underline t))))
+    `(link-visited        ((t (:foreground ,gruvbox-bright_purple :weight bold :underline t))))
+    `(default             ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-light1))))
+    `(cursor              ((t (:background ,gruvbox-light1))))
+    `(escape-glyph        ((t (:foreground ,gruvbox-bright_aqua))))
+    `(trailing-whitespace ((t (:background ,gruvbox-bright_red))))
+    `(fringe              ((t (:foreground ,gruvbox-light3))))
+    `(header-line         ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-bright_yellow))))
+    `(vertical-border     ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-dark4))))
+    `(highlight           ((t (:background ,gruvbox-dark2))))
+    `(lazy-highlight      ((t (:background ,gruvbox-bright_yellow :foreground ,gruvbox-dark0))))
+    `(success             ((t (:foreground ,gruvbox-bright_green :weight bold))))
+    `(warning             ((t (:foreground ,gruvbox-bright_orange :weight bold))))
+    `(error               ((t (:foreground ,gruvbox-bright_red :weight bold))))
+    `(match               ((t (:background ,gruvbox-bright_orange :foreground ,gruvbox-dark0))))
+    `(shadow              ((t (:foreground ,gruvbox-neutral_gray))))
+    `(mode-line           ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-light1))))
+    `(mode-line-inactive  ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-dark4))))
+    `(mode-line-buffer-id ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
+    `(mode-line-highlight ((t (:box (:line-width -1 :color ,gruvbox-bright_gray :style released-button)))))
+    '(region              ((t (:inverse-video t))))
+    `(secondary-selection ((t (:background ,gruvbox-dark0_s))))
+    `(minibuffer-prompt   ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-bright_green :weight bold))))
+    `(menu                ((t (:background ,gruvbox-dark2 :foreground ,gruvbox-light1))))
+    `(tooltip             ((t (:background ,gruvbox-dark2 :foreground ,gruvbox-light1))))
 
     ;; hl-line-mode
-    `(hl-line-face                      ((t (:background ,gruvbox-dark1))))
-    `(hl-line                           ((t (:background ,gruvbox-dark1)))) ; old Emacsen
+    `(hl-line-face ((t (:background ,gruvbox-dark1))))
+    `(hl-line      ((t (:background ,gruvbox-dark1)))) ; old Emacsen
 
     ;; font lock
     `(font-lock-builtin-face              ((t (:foreground ,gruvbox-bright_orange))))
     `(font-lock-comment-face              ((t (:foreground ,gruvbox-neutral_gray))))
     `(font-lock-comment-delimiter-face    ((t (:foreground ,gruvbox-faded_green))))
     `(font-lock-constant-face             ((t (:foreground ,gruvbox-bright_purple))))
-    `(font-lock-doc-face                  ((t (:foreground ,gruvbox-light4))))
+    `(font-lock-doc-face                  ((t (:foreground ,gruvbox-light2))))
     `(font-lock-function-name-face        ((t (:foreground ,gruvbox-bright_green :weight bold))))
     `(font-lock-keyword-face              ((t (:foreground ,gruvbox-bright_red))))
     `(font-lock-negation-char-face        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
@@ -138,31 +138,34 @@
     `(c-nonbreakable-space-face           ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark0))))
 
     ;; whitespace-mode
-    `(whitespace-space                  ((t (:foreground ,gruvbox-bright_gray))))
-    `(whitespace-hspace                 ((t (:foreground ,gruvbox-bright_gray))))
-    `(whitespace-tab                    ((t (:foreground ,gruvbox-bright_gray))))
-    `(whitespace-newline                ((t (:foreground ,gruvbox-bright_gray))))
-    `(whitespace-trailing               ((t (:foreground ,gruvbox-bright_red))))
-    `(whitespace-line                   ((t (:foreground ,gruvbox-bright_red))))
-    `(whitespace-space-before-tab       ((t (:foreground ,gruvbox-bright_gray))))
-    `(whitespace-indentation            ((t (:foreground ,gruvbox-dark2))))
-    `(whitespace-empty                  ((t (:foreground ,gruvbox-bright_red))))
-    `(whitespace-space-after-tab        ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-space            ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-hspace           ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-tab              ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-newline          ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-trailing         ((t (:foreground ,gruvbox-bright_red))))
+    `(whitespace-line             ((t (:foreground ,gruvbox-bright_red))))
+    `(whitespace-space-before-tab ((t (:foreground ,gruvbox-bright_gray))))
+    `(whitespace-indentation      ((t (:foreground ,gruvbox-dark2))))
+    `(whitespace-empty            ((t (:foreground ,gruvbox-bright_red))))
+    `(whitespace-space-after-tab  ((t (:foreground ,gruvbox-bright_gray))))
 
     ;; rainbow-delimiters
-    `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-bright_orange))))
-    `(rainbow-delimiters-depth-2-face   ((t (:foreground ,gruvbox-bright_blue))))
-    `(rainbow-delimiters-depth-3-face   ((t (:foreground ,gruvbox-bright_yellow))))
-    `(rainbow-delimiters-depth-4-face   ((t (:foreground ,gruvbox-bright_purple))))
-    `(rainbow-delimiters-depth-5-face   ((t (:foreground ,gruvbox-bright_green))))
-    `(rainbow-delimiters-depth-6-face   ((t (:foreground ,gruvbox-bright_red))))
-    `(rainbow-delimiters-depth-7-face   ((t (:foreground ,gruvbox-faded_orange))))
-    `(rainbow-delimiters-depth-8-face   ((t (:foreground ,gruvbox-faded_blue))))
-    `(rainbow-delimiters-depth-9-face   ((t (:foreground ,gruvbox-faded_yellow))))
-    `(rainbow-delimiters-depth-10-face  ((t (:foreground ,gruvbox-faded_purple))))
-    `(rainbow-delimiters-depth-11-face  ((t (:foreground ,gruvbox-faded_green))))
-    `(rainbow-delimiters-depth-12-face  ((t (:foreground ,gruvbox-faded_red))))
-    `(rainbow-delimiters-unmatched-face ((t (:foreground ,gruvbox-light1))))
+    `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-bright_red))))
+    `(rainbow-delimiters-depth-2-face   ((t (:foreground ,gruvbox-bright_green))))
+    `(rainbow-delimiters-depth-3-face   ((t (:foreground ,gruvbox-bright_orange))))
+    `(rainbow-delimiters-depth-4-face   ((t (:foreground ,gruvbox-bright_blue))))
+    `(rainbow-delimiters-depth-5-face   ((t (:foreground ,gruvbox-bright_yellow))))
+    `(rainbow-delimiters-depth-6-face   ((t (:foreground ,gruvbox-bright_purple))))
+    `(rainbow-delimiters-depth-7-face   ((t (:foreground ,gruvbox-faded_red))))
+    `(rainbow-delimiters-depth-8-face   ((t (:foreground ,gruvbox-faded_green))))
+    `(rainbow-delimiters-depth-9-face   ((t (:foreground ,gruvbox-faded_orange))))
+    `(rainbow-delimiters-depth-10-face  ((t (:foreground ,gruvbox-faded_blue))))
+    `(rainbow-delimiters-depth-11-face  ((t (:foreground ,gruvbox-faded_yellow))))
+    `(rainbow-delimiters-depth-12-face  ((t (:foreground ,gruvbox-faded_purple))))
+    `(rainbow-delimiters-unmatched-face
+      ((((supports :underline (:style wave)))
+        (:underline (:style wave :color ,gruvbox-bright_orange)))
+       (t (:underline ,gruvbox-bright_red))))
 
     ;; linum{,-relative}
     `(linum                       ((t (:foreground ,gruvbox-dark4))))
@@ -185,8 +188,8 @@
     `(highlight-indentation-face                ((t (:background ,gruvbox-dark2))))
 
     ;; show-paren-mode
-    `(show-paren-match    ((t (:background ,gruvbox-dark3 :weight bold))))
-    `(show-paren-mismatch ((t (:foreground ,gruvbox-bright_red :weight bold))))
+    `(show-paren-match    ((t (:background ,gruvbox-dark1 :underline t))))
+    `(show-paren-mismatch ((t (:foreground ,gruvbox-dark0 :background ,gruvbox-bright_red))))
 
     ;; smartparens-mode
     '(sp-show-pair-match-face    ((t (:inherit show-paren-match))))
@@ -281,17 +284,17 @@
    `(gnus-summary-normal-unread       ((t (:foreground ,gruvbox-light1))))
    `(gnus-summary-selected            ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
 
-   `(gnus-cite-1                      ((t (:foreground ,gruvbox-bright_orange))))
-   `(gnus-cite-10                     ((t (:foreground ,gruvbox-neutral_green))))
-   `(gnus-cite-11                     ((t (:foreground ,gruvbox-faded_orange))))
-   `(gnus-cite-2                      ((t (:foreground ,gruvbox-bright_blue))))
-   `(gnus-cite-3                      ((t (:foreground ,gruvbox-bright_yellow))))
-   `(gnus-cite-4                      ((t (:foreground ,gruvbox-bright_purple))))
-   `(gnus-cite-5                      ((t (:foreground ,gruvbox-bright_green))))
-   `(gnus-cite-6                      ((t (:foreground ,gruvbox-neutral_orange))))
-   `(gnus-cite-7                      ((t (:foreground ,gruvbox-neutral_blue))))
-   `(gnus-cite-8                      ((t (:foreground ,gruvbox-neutral_yellow))))
-   `(gnus-cite-9                      ((t (:foreground ,gruvbox-neutral_purple))))
+   `(gnus-cite-1                      ((t (:foreground ,gruvbox-bright_red))))
+   `(gnus-cite-10                     ((t (:foreground ,gruvbox-neutral_blue))))
+   `(gnus-cite-11                     ((t (:foreground ,gruvbox-neutral_yellow))))
+   `(gnus-cite-2                      ((t (:foreground ,gruvbox-bright_green))))
+   `(gnus-cite-3                      ((t (:foreground ,gruvbox-bright_orange))))
+   `(gnus-cite-4                      ((t (:foreground ,gruvbox-bright_blue))))
+   `(gnus-cite-5                      ((t (:foreground ,gruvbox-bright_yellow))))
+   `(gnus-cite-6                      ((t (:foreground ,gruvbox-bright_purple))))
+   `(gnus-cite-7                      ((t (:foreground ,gruvbox-neutral_red))))
+   `(gnus-cite-8                      ((t (:foreground ,gruvbox-neutral_green))))
+   `(gnus-cite-9                      ((t (:foreground ,gruvbox-neutral_orange))))
    '(gnus-cite-attribution            ((t (:slant italic))))
 
    `(gnus-group-news-1-empty          ((t (:foreground ,gruvbox-bright_yellow))))
@@ -302,7 +305,7 @@
    `(gnus-group-news-6-empty          ((t (:foreground ,gruvbox-light2))))
    `(gnus-group-news-low-empty        ((t (:foreground ,gruvbox-light2))))
 
-   `(gnus-signature                   ((t (:foreground ,gruvbox-bright_red))))
+   `(gnus-signature                   ((t (:foreground ,gruvbox-bright_aqua))))
 
    `(mm-command-ouput                 ((t (:foreground ,gruvbox-bright_yellow))))
    `(mm-uu-extract                    ((t (:background ,gruvbox-dark0_h :foreground ,gruvbox-bright_yellow))))
