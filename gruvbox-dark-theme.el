@@ -189,7 +189,7 @@
 
     ;; show-paren-mode
     `(show-paren-match    ((t (:background ,gruvbox-dark1 :underline t))))
-    `(show-paren-mismatch ((t (:foreground ,gruvbox-dark0 :background ,gruvbox-bright_red))))
+    `(show-paren-mismatch ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark0))))
 
     ;; smartparens-mode
     '(sp-show-pair-match-face    ((t (:inherit show-paren-match))))
