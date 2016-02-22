@@ -123,7 +123,7 @@
     `(font-lock-comment-face              ((t (:foreground ,gruvbox-neutral_gray))))
     `(font-lock-comment-delimiter-face    ((t (:foreground ,gruvbox-faded_green))))
     `(font-lock-constant-face             ((t (:foreground ,gruvbox-bright_purple))))
-    `(font-lock-doc-face                  ((t (:foreground ,gruvbox-light2))))
+    `(font-lock-doc-face                  ((t (:foreground ,gruvbox-light3))))
     `(font-lock-function-name-face        ((t (:foreground ,gruvbox-bright_green :weight bold))))
     `(font-lock-keyword-face              ((t (:foreground ,gruvbox-bright_red))))
     `(font-lock-negation-char-face        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
@@ -578,7 +578,17 @@
 
    ;; info
    `(info-menu-star ((t (:foreground ,gruvbox-bright_red))))
-   `(info-node      ((t (:foreground ,gruvbox-bright_orange :weight bold :slant italic)))))
+   `(info-node      ((t (:foreground ,gruvbox-bright_orange :weight bold :slant italic))))
+
+   ;; outline-mode
+   `(outline-1 ((t (:foreground ,gruvbox-bright_red))))
+   `(outline-2 ((t (:foreground ,gruvbox-bright_green))))
+   `(outline-3 ((t (:foreground ,gruvbox-bright_orange))))
+   `(outline-4 ((t (:foreground ,gruvbox-bright_blue))))
+   `(outline-5 ((t (:foreground ,gruvbox-bright_yellow))))
+   `(outline-6 ((t (:foreground ,gruvbox-bright_purple))))
+   `(outline-7 ((t (:foreground ,gruvbox-bright_aqua))))
+   `(outline-8 ((t (:foreground ,gruvbox-neutral_orange)))))
 
   (custom-theme-set-variables
    'gruvbox-dark
