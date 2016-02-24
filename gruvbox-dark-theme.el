@@ -588,7 +588,27 @@
    `(outline-5 ((t (:foreground ,gruvbox-bright_yellow))))
    `(outline-6 ((t (:foreground ,gruvbox-bright_purple))))
    `(outline-7 ((t (:foreground ,gruvbox-bright_aqua))))
-   `(outline-8 ((t (:foreground ,gruvbox-neutral_orange)))))
+   `(outline-8 ((t (:foreground ,gruvbox-neutral_orange))))
+
+   ;; haskell-mode
+   '(haskell-debug-muted-face        ((t (:inherit shadow))))
+   '(haskell-debug-newline-face      ((t (:inherit compilation-line-number))))
+   '(haskell-debug-trace-number-face ((t (:inherit compilation-line-number))))
+
+   `(haskell-error-face
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,gruvbox-bright_red)))
+      (t (:underline ,gruvbox-bright_red))))
+   `(haskell-hole-face
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,gruvbox-bright_blue)))
+      (t (:underline ,gruvbox-bright_blue))))
+   `(haskell-warning-face
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,gruvbox-bright_orange)))
+      (t (:underline ,gruvbox-bright_orange))))
+
+   `(haskell-interactive-face-prompt ((t (:foreground ,gruvbox-bright_aqua :weight bold)))))
 
   (custom-theme-set-variables
    'gruvbox-dark
