@@ -196,7 +196,9 @@
     '(sp-show-pair-mismatch-face ((t (:inherit show-paren-mismatch))))
 
     ;; completions
-    `(completions-annotations ((t (:foreground ,gruvbox-light4))))
+    '(completions-annotations      ((t (:inherit font-lock-doc-face))))
+    '(completions-common-part      ((t (:inherit shadow))))
+    `(completions-first-difference ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
 
     ;; grep
     `(grep-context-face ((t (:foreground ,gruvbox-light1))))
