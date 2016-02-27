@@ -403,8 +403,26 @@
    `(font-latex-sedate-face               ((t (:foreground ,gruvbox-bright_aqua))))
    '(font-latex-slide-title-face          ((t (:height 1.2 :inherit font-latex-sectioning-5-face))))
    `(font-latex-string-face               ((t (:foreground ,gruvbox-neutral_purple))))
-   `(font-latex-verbatim-face             ((t (:slant italic :inherit fixed-pitch))))
+   '(font-latex-verbatim-face             ((t (:inherit font-lock-constant-face))))
    '(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
+
+   ;; markdown-mode
+   `(markdown-bold-face             ((t (:foreground ,gruvbox-neutral_green :inherit bold))))
+   `(markdown-italic-face           ((t (:foreground ,gruvbox-neutral_green :inherit italic))))
+   '(markdown-header-delimiter-face ((t (:inherit font-lock-comment-delimiter-face))))
+   '(markdown-header-face           ((t (:inherit markdown-header-face-1))))
+   `(markdown-header-face-1         ((t (:foreground ,gruvbox-bright_red :weight bold))))
+   `(markdown-header-face-2         ((t (:foreground ,gruvbox-bright_green :weight bold))))
+   `(markdown-header-face-3         ((t (:foreground ,gruvbox-bright_orange :weight bold))))
+   `(markdown-header-face-4         ((t (:foreground ,gruvbox-bright_blue :weight bold))))
+   `(markdown-header-face-5         ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
+   `(markdown-header-face-6         ((t (:foreground ,gruvbox-bright_purple :weight bold))))
+   '(markdown-header-rule-face      ((t (:inherit markdown-header-delimiter-face))))
+   `(markdown-link-face             ((t (:foreground ,gruvbox-bright_yellow))))
+   `(markdown-markup-face           ((t (:foreground ,gruvbox-light2))))
+   `(markdown-math-face             ((t (:foreground ,gruvbox-bright_yellow))))
+   `(markdown-strike-through-face   ((t (:foreground ,gruvbox-neutral_green :strike-through t))))
+   '(markdown-url-face              ((t (:inherit link))))
 
    ;; flyspell-mode
    `(flyspell-duplicate
@@ -583,18 +601,18 @@
    `(info-node      ((t (:foreground ,gruvbox-bright_orange :weight bold :slant italic))))
 
    ;; outline-mode
-   `(outline-1 ((t (:foreground ,gruvbox-bright_red))))
-   `(outline-2 ((t (:foreground ,gruvbox-bright_green))))
-   `(outline-3 ((t (:foreground ,gruvbox-bright_orange))))
-   `(outline-4 ((t (:foreground ,gruvbox-bright_blue))))
-   `(outline-5 ((t (:foreground ,gruvbox-bright_yellow))))
-   `(outline-6 ((t (:foreground ,gruvbox-bright_purple))))
-   `(outline-7 ((t (:foreground ,gruvbox-bright_aqua))))
-   `(outline-8 ((t (:foreground ,gruvbox-neutral_orange))))
+   `(outline-1 ((t (:foreground ,gruvbox-bright_red :weight bold))))
+   `(outline-2 ((t (:foreground ,gruvbox-bright_green :weight bold))))
+   `(outline-3 ((t (:foreground ,gruvbox-bright_orange :weight bold))))
+   `(outline-4 ((t (:foreground ,gruvbox-bright_blue :weight bold))))
+   `(outline-5 ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
+   `(outline-6 ((t (:foreground ,gruvbox-bright_purple :weight bold))))
+   `(outline-7 ((t (:foreground ,gruvbox-bright_aqua :weight bold))))
+   `(outline-8 ((t (:foreground ,gruvbox-neutral_orange :weight bold))))
 
    ;; haskell-mode
    '(haskell-debug-muted-face        ((t (:inherit shadow))))
-   '(haskell-debug-newline-face      ((t (:inherit compilation-line-number))))
+   `(haskell-debug-newline-face      ((t (:foreground ,gruvbox-bright_purple :underline t))))
    '(haskell-debug-trace-number-face ((t (:inherit compilation-line-number))))
 
    `(haskell-error-face
