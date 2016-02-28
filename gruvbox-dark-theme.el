@@ -407,6 +407,7 @@
    '(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
 
    ;; markdown-mode
+   `(markdown-blockquote-face       ((t (:foreground ,gruvbox-neutral_purple))))
    `(markdown-bold-face             ((t (:foreground ,gruvbox-neutral_green :inherit bold))))
    `(markdown-italic-face           ((t (:foreground ,gruvbox-neutral_green :inherit italic))))
    '(markdown-header-delimiter-face ((t (:inherit font-lock-comment-delimiter-face))))
