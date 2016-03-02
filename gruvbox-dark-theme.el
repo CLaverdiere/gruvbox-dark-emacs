@@ -364,12 +364,12 @@
    ;; diff
    `(diff-added          ((t (:background ,gruvbox-faded_green :foreground ,gruvbox-light1))))
    `(diff-changed        ((t (:background ,gruvbox-faded_aqua :foreground ,gruvbox-light1))))
-   `(diff-removed        ((t (:background ,gruvbox-faded_red :foreground ,gruvbox-light1))))
+   `(diff-file-header    ((t (:foreground ,gruvbox-bright_yellow))))
+   `(diff-header         ((t (:background ,gruvbox-dark1))))
    `(diff-refine-added   ((t (:background ,gruvbox-bright_green :foreground ,gruvbox-dark0 :weight bold))))
    `(diff-refine-changed ((t (:background ,gruvbox-bright_aqua :foreground ,gruvbox-dark0 :weight bold))))
    `(diff-refine-removed ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark0 :weight bold))))
-   `(diff-header         ((t (:background ,gruvbox-dark1))))
-   `(diff-file-header    ((t (:background ,gruvbox-dark2 :weight bold))))
+   `(diff-removed        ((t (:background ,gruvbox-faded_red :foreground ,gruvbox-light1))))
 
    ;; anzu
    `(anzu-match-1    ((t (:background ,gruvbox-bright_green :foreground ,gruvbox-dark0))))
@@ -543,7 +543,7 @@
 
    `(diredp-autofile-name          ((t (:foreground ,gruvbox-bright_orange))))
    `(diredp-compressed-file-name   ((t (:foreground ,gruvbox-neutral_red :weight bold))))
-   `(diredp-compressed-file-suffix ((t (:foreground ,gruvbox-neutral_red :weight bold))))
+   '(diredp-compressed-file-suffix ((t (:inherit diredp-compressed-file-name))))
    `(diredp-date-time              ((t (:foreground ,gruvbox-bright_yellow))))
    `(diredp-deletion               ((t (:foreground ,gruvbox-bright_red :weight bold :underline t))))
    `(diredp-deletion-file-name     ((t (:foreground ,gruvbox-bright_red :weight bold :underline t))))
@@ -553,7 +553,7 @@
    `(diredp-exec-priv              ((t (:foreground ,gruvbox-neutral_green))))
    `(diredp-executable-tag         ((t (:foreground ,gruvbox-neutral_green))))
    `(diredp-file-name              ((t (:foreground ,gruvbox-light1))))
-   `(diredp-file-suffix            ((t (:foreground ,gruvbox-bright_green))))
+   `(diredp-file-suffix            ((t (:foreground ,gruvbox-bright_aqua))))
    `(diredp-flag-mark              ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-bright_purple))))
    `(diredp-flag-mark-line         ((t (:background ,gruvbox-dark1))))
    '(diredp-ignored-file-name      ((t (:inherit shadow))))
@@ -613,8 +613,8 @@
 
    ;; haskell-mode
    '(haskell-debug-muted-face        ((t (:inherit shadow))))
-   `(haskell-debug-newline-face      ((t (:foreground ,gruvbox-bright_purple :underline t))))
    '(haskell-debug-trace-number-face ((t (:inherit compilation-line-number))))
+   `(haskell-debug-newline-face      ((t (:foreground ,gruvbox-bright_purple :underline t))))
 
    `(haskell-error-face
      ((((supports :underline (:style wave)))
