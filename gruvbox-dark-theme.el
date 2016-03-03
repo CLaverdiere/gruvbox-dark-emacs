@@ -630,6 +630,15 @@
    `(outline-7 ((t (:foreground ,bright_aqua :weight bold))))
    `(outline-8 ((t (:foreground ,neutral_orange :weight bold))))
 
+   ;; ivy
+   `(ivy-current-match           ((t (:weight bold :background ,neutral_orange :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-1 ((t (:weight bold :background ,bright_orange :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-2 ((t (:weight bold :background ,bright_purple :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-3 ((t (:weight bold :background ,bright_aqua :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-4 ((t (:weight bold :background ,bright_blue :foreground ,dark0))))
+   `(ivy-remote                  ((t (:foreground ,neutral_purple))))
+   `(ivy-modified-buffer         ((t (:foreground ,neutral_red))))
+
    ;; haskell-mode
    '(haskell-debug-muted-face        ((t (:inherit shadow))))
    '(haskell-debug-trace-number-face ((t (:inherit compilation-line-number))))

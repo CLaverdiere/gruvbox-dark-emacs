@@ -61,6 +61,7 @@ Currently supported modes include:
 * [flycheck](https://github.com/flycheck/flycheck)
 * [flymake](https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html)
 * [avy](https://github.com/abo-abo/avy)
+* [ivy](https://github.com/abo-abo/swiper)
 
 ## Screenshot
 
