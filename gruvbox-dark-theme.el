@@ -99,9 +99,9 @@
    `(link-visited        ((t (:foreground ,bright_purple :weight bold :underline t))))
    `(match               ((t (:background ,bright_orange :foreground ,dark0))))
    `(menu                ((t (:background ,dark2 :foreground ,light1))))
-   `(minibuffer-prompt   ((t (:background ,dark0 :foreground ,bright_green :weight bold))))
+   `(minibuffer-prompt   ((t (:foreground ,bright_aqua :weight bold))))
    `(mode-line           ((t (:background ,dark1 :foreground ,light1))))
-   `(mode-line-buffer-id ((t (:foreground ,bright_aqua :weight bold))))
+   `(mode-line-buffer-id ((t (:foreground ,bright_blue :weight bold))))
    `(mode-line-highlight ((t (:box (:line-width -1 :color ,bright_gray :style released-button)))))
    `(mode-line-inactive  ((t (:background ,dark1 :foreground ,dark4))))
    '(region              ((t (:inverse-video t))))
@@ -226,7 +226,7 @@
    `(isearch-fail ((t (:background ,bright_red :foreground ,dark0))))
 
    ;; buffer-menu
-   `(buffer-menu-buffer ((t (:foreground ,bright_aqua :weight bold))))
+   '(buffer-menu-buffer ((t (:inherit mode-line-buffer-id))))
 
    ;; ido-mode
    `(ido-first-match ((t (:foreground ,bright_yellow :weight bold))))
