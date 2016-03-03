@@ -619,6 +619,7 @@
    ;; info
    `(info-menu-star ((t (:foreground ,bright_red))))
    `(info-node      ((t (:foreground ,bright_orange :weight bold :slant italic))))
+   `(info-title-4   ((t (:foreground ,bright_yellow :weight bold :inherit variable-pitch))))
 
    ;; outline-mode
    `(outline-1 ((t (:foreground ,bright_red :weight bold))))
