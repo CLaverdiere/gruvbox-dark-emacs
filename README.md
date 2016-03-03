@@ -36,7 +36,7 @@ See the
 [gruvbox wiki](https://github.com/morhetz/gruvbox/wiki/Terminal-specific#a-256-color-gruvbox-palette-shellscript)
 for details.
 
-## Bugs and imporvements
+## Bugs and improvements
 
 Please, report any problems that you find on the projects integrated issue
 tracker. If you've added some improvements and you want them included upstream
