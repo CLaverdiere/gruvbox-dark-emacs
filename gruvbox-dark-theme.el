@@ -613,6 +613,9 @@
    `(term-color-white    ((t (:background ,light1 :foreground ,light1))))
    `(term-color-yellow   ((t (:background ,neutral_yellow :foreground ,neutral_yellow))))
 
+   ;; which-func-mode
+   `(which-func ((t (:foreground ,bright_green :weight bold))))
+
    ;; info
    `(info-menu-star ((t (:foreground ,bright_red))))
    `(info-node      ((t (:foreground ,bright_orange :weight bold :slant italic))))
