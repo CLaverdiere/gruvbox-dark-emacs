@@ -613,6 +613,9 @@
    `(term-color-white    ((t (:background ,light1 :foreground ,light1))))
    `(term-color-yellow   ((t (:background ,neutral_yellow :foreground ,neutral_yellow))))
 
+   ;; which-func-mode
+   `(which-func ((t (:foreground ,bright_green :weight bold))))
+
    ;; info
    `(info-menu-star ((t (:foreground ,bright_red))))
    `(info-node      ((t (:foreground ,bright_orange :weight bold :slant italic))))
@@ -626,6 +629,15 @@
    `(outline-6 ((t (:foreground ,bright_purple :weight bold))))
    `(outline-7 ((t (:foreground ,bright_aqua :weight bold))))
    `(outline-8 ((t (:foreground ,neutral_orange :weight bold))))
+
+   ;; ivy
+   `(ivy-current-match           ((t (:weight bold :background ,neutral_orange :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-1 ((t (:weight bold :background ,bright_orange :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-2 ((t (:weight bold :background ,bright_purple :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-3 ((t (:weight bold :background ,bright_aqua :foreground ,dark0))))
+   `(ivy-minibuffer-match-face-4 ((t (:weight bold :background ,bright_blue :foreground ,dark0))))
+   `(ivy-remote                  ((t (:foreground ,neutral_purple))))
+   `(ivy-modified-buffer         ((t (:foreground ,neutral_red))))
 
    ;; haskell-mode
    '(haskell-debug-muted-face        ((t (:inherit shadow))))
