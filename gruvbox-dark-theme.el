@@ -658,7 +658,16 @@
        (:underline (:style wave :color ,bright_orange)))
       (t (:underline ,bright_orange))))
 
-   `(haskell-interactive-face-prompt ((t (:foreground ,bright_aqua :weight bold)))))
+   `(haskell-interactive-face-prompt ((t (:foreground ,bright_aqua :weight bold))))
+
+   ;; which-key-mode
+   `(which-key-command-description-face ((t (:foreground ,bright_green))))
+   `(which-key-group-description-face   ((t (:foreground ,bright_orange))))
+   `(which-key-highlighted-command-face ((t (:background ,dark1 :foreground ,bright_green))))
+   `(which-key-key-face                 ((t (:foreground ,bright_purple))))
+   '(which-key-note-face                ((t (:inherit font-lock-doc-face))))
+   '(which-key-separator-face           ((t (:inherit shadow))))
+   `(which-key-special-key-face         ((t (:foreground ,bright_yellow)))))
 
   (custom-theme-set-variables
    'gruvbox-dark
