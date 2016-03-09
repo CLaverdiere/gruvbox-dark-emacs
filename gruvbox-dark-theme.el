@@ -640,6 +640,13 @@
    `(ivy-remote                  ((t (:foreground ,neutral_purple))))
    `(ivy-modified-buffer         ((t (:foreground ,neutral_red))))
 
+   ;; swiper
+   '(swiper-line-face    ((t (:inherit hl-line))))
+   '(swiper-match-face-1 ((t (:inherit ivy-minibuffer-match-face-1))))
+   '(swiper-match-face-2 ((t (:inherit ivy-minibuffer-match-face-2))))
+   '(swiper-match-face-3 ((t (:inherit ivy-minibuffer-match-face-3))))
+   '(swiper-match-face-4 ((t (:inherit ivy-minibuffer-match-face-4))))
+
    ;; haskell-mode
    '(haskell-debug-muted-face        ((t (:inherit shadow))))
    '(haskell-debug-trace-number-face ((t (:inherit compilation-line-number))))
