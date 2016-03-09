@@ -62,6 +62,7 @@ Currently supported modes include:
 * [flymake](https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html)
 * [avy](https://github.com/abo-abo/avy)
 * [ivy](https://github.com/abo-abo/swiper)
+* [Elfeed](https://github.com/skeeto/elfeed)
 
 ## Screenshot
 

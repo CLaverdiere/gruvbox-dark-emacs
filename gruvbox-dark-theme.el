@@ -667,6 +667,13 @@
 
    `(haskell-interactive-face-prompt ((t (:foreground ,bright_aqua :weight bold))))
 
+   ;; elfeed
+   `(elfeed-search-title-face ((t (:foreground ,light1))))
+   `(elfeed-search-feed-face ((t (:foreground ,bright_aqua))))
+   `(elfeed-search-date-face ((t (:foreground ,bright_blue))))
+   `(elfeed-search-tag-face ((t (:foreground ,bright_purple))))
+   `(elfeed-search-unread-count-face ((t (:foreground ,bright_orange))))
+
    ;; which-key-mode
    `(which-key-command-description-face ((t (:foreground ,bright_green))))
    `(which-key-group-description-face   ((t (:foreground ,bright_orange))))
