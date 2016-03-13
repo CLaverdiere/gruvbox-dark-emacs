@@ -675,7 +675,7 @@
    '(erc-button                 ((t (:underline t))))
    '(erc-command-indicator-face ((t (:weight bold))))
    `(erc-current-nick-face      ((t (:foreground ,bright_yellow :weight bold))))
-   `(erc-dangerous-host-face    ((t (:foreground ,bright_red))))
+   `(erc-dangerous-host-face    ((t (:foreground ,bright_red :weight bold))))
    '(erc-default-face           ((t (:inherit default))))
    '(erc-direct-msg-face        ((t (:inherit erc-default-face))))
    `(erc-error-face             ((t (:foreground ,bright_red :weight bold))))
