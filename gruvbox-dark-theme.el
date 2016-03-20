@@ -67,7 +67,7 @@
        (neutral_red    (funcall get-color "#cc241d" "color-124"))
        (neutral_green  (funcall get-color "#98971a" "color-106"))
        (neutral_yellow (funcall get-color "#d79921" "color-172"))
-       (neutral_blue   (funcall get-color "#458588" "color-66"))
+       (neutral_blue   (funcall get-color "#458588" "color-74"))
        (neutral_purple (funcall get-color "#b16286" "color-132"))
        (neutral_aqua   (funcall get-color "#689d6a" "color-72"))
        (neutral_orange (funcall get-color "#d65d0e" "color-166"))
