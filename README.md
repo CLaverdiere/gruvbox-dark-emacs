@@ -2,13 +2,12 @@
 
 ## About
 
-gruvbox dark for GNU Emacs is a direct port of the popular
-[gruvbox](https://github.com/morhetz/gruvbox) theme for vim, developed by Pavel
-Pertsev.  It is my opinion that it's one of the finest low-contrast color themes
-out there.
+Gruvbox Dark for GNU Emacs is a direct port of the popular
+[Gruvbox](https://github.com/morhetz/gruvbox) theme for Vim, developed by Pavel
+Pertsev.  It is in my opinion of the finest low-contrast color themes out there.
 
-This theme uses the new built-in theming support available starting with Emacs
-24.
+This theme uses the new built-in theming support available starting with GNU
+Emacs 24.
 
 ## Installation
 
@@ -21,7 +20,8 @@ this to your `.emacs`:
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 ```
 
-Now you can load the theme with the interactive function `load-theme` like this:
+Now you can load the theme with the interactive function `load-theme`, like
+this:
 
 `M-x load-theme RET gruvbox-dark`
 
@@ -31,9 +31,9 @@ Not supported yet.
 
 ## Terminal users
 
-Terminal users require a 256-color terminal with appropriate gruvbox colors.
+Terminal users require a 256-color terminal with appropriate Gruvbox colors.
 See the
-[gruvbox wiki](https://github.com/morhetz/gruvbox/wiki/Terminal-specific#a-256-color-gruvbox-palette-shellscript)
+[Gruvbox wiki](https://github.com/morhetz/gruvbox/wiki/Terminal-specific#a-256-color-gruvbox-palette-shellscript)
 for details.
 
 ## Bugs and improvements
@@ -47,7 +47,7 @@ feasibly use and test all popular modes, contributions would be greatly
 appreciated.  Additionally, I will be adding some customizations to the theme
 (italic comments and/or strings among other things).
 
-### Supported modes
+## Supported modes
 
 Currently supported modes include:
 
@@ -66,7 +66,7 @@ Currently supported modes include:
 
 ## Screenshot
 
-![Screenshot][screenshot]
+![Screenshot of the Gruvbox Dark color theme][screenshot]
 
 
 [badge-license]: https://img.shields.io/badge/license-GPL_3-green.svg
