@@ -720,6 +720,9 @@
   (custom-theme-set-variables
    'gruvbox-dark
 
+   ;; frame-background
+   '(frame-background-mode 'dark)
+
    ;; fci-mode
    `(fci-rule-color ,neutral_blue)
 
