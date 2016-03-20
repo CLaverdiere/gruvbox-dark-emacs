@@ -21,12 +21,12 @@
 
 ;;; Commentary:
 
-;; The gruvbox colors ported to Emacs.  Built on top of the new built-in theme
-;; support in Emacs 24.
+;; The Gruvbox colors ported to GNU Emacs.  Built on top of the new built-in
+;; theme support in GNU Emacs 24.
 
 ;;; Credits:
 
-;; Pavel Pertsev created the original gruvbox theme for the Vim editor.  This
+;; Pavel Pertsev created the original Gruvbox theme for the Vim editor.  This
 ;; port is based entirely on his work.
 
 ;;; Code:
@@ -542,7 +542,7 @@
    ;; undo-tree-mode
    `(undo-tree-visualizer-active-branch-face ((t (:foreground ,light1 :weight bold))))
    `(undo-tree-visualizer-current-face       ((t (:foreground ,bright_red))))
-   `(undo-tree-visualizer-default-face       ((t (:foreground ,dark4))))
+   `(undo-tree-visualizer-default-face       ((t (:foreground ,dark3))))
    `(undo-tree-visualizer-register-face      ((t (:foreground ,bright_yellow))))
    `(undo-tree-visualizer-unmodified-face    ((t (:foreground ,bright_aqua))))
 
@@ -592,7 +592,7 @@
    ;; eshell
    `(eshell-ls-archive          ((t (:foreground ,neutral_red :weight bold))))
    `(eshell-ls-backup           ((t (:foreground ,neutral_gray))))
-   `(eshell-ls-clutter          ((t (:foreground ,dark4))))
+   `(eshell-ls-clutter          ((t (:foreground ,dark3))))
    `(eshell-ls-directory        ((t (:foreground ,neutral_blue :weight bold))))
    `(eshell-ls-executable       ((t (:foreground ,neutral_green :weight bold))))
    `(eshell-ls-missing          ((t (:foreground ,neutral_orange :weight bold))))
@@ -668,11 +668,19 @@
    `(haskell-interactive-face-prompt ((t (:foreground ,bright_aqua :weight bold))))
 
    ;; elfeed
-   `(elfeed-search-title-face ((t (:foreground ,light1))))
-   `(elfeed-search-feed-face ((t (:foreground ,bright_aqua))))
-   `(elfeed-search-date-face ((t (:foreground ,bright_blue))))
-   `(elfeed-search-tag-face ((t (:foreground ,bright_purple))))
-   `(elfeed-search-unread-count-face ((t (:foreground ,bright_orange))))
+   `(elfeed-search-date-face         ((t (:foreground ,bright_yellow))))
+   `(elfeed-search-feed-face         ((t (:foreground ,bright_purple))))
+   `(elfeed-search-filter-face       ((t (:foreground ,bright_blue))))
+   `(elfeed-search-last-update-face  ((t (:foreground ,bright_yellow))))
+   `(elfeed-search-tag-face          ((t (:foreground ,bright_aqua))))
+   `(elfeed-search-title-face        ((t (:foreground ,light3))))
+   `(elfeed-search-unread-count-face ((t (:foreground ,light1 :weight bold))))
+   `(elfeed-search-unread-title-face ((t (:foreground ,light1 :weight bold))))
+
+   `(elfeed-log-date-face        ((t (:foreground ,bright_yellow))))
+   `(elfeed-log-error-level-face ((t :foreground ,bright_red)))
+   `(elfeed-log-warn-level-face  ((t (:foreground ,bright_orange))))
+   `(elfeed-log-info-level-face  ((t (:foreground ,bright_green))))
 
    ;; which-key-mode
    `(which-key-command-description-face ((t (:foreground ,bright_green))))
