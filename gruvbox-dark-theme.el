@@ -198,6 +198,23 @@
    `(compilation-mode-line-fail       ((t (:foreground ,bright_red :weight bold))))
    `(compilation-mode-line-run        ((t (:foreground ,bright_orange :weight bold))))
 
+   ;; helm
+   `(helm-buffer-directory ((t (:foreground ,bright_blue))))
+   `(helm-buffer-file      ((t (:foreground ,light1))))
+   `(helm-buffer-not-saved ((t (:foreground ,bright_orange))))
+   `(helm-buffer-process   ((t (:foreground ,bright_blue))))
+   `(helm-buffer-saved-out ((t (:inherit warning))))
+   `(helm-buffer-size      ((t (:foreground ,bright_yellow))))
+   `(helm-candidate-number ((t (:background ,dark1 :foreground ,bright_green :bold t))))
+   `(helm-ff-directory     ((t (:background ,dark0 :foreground ,neutral_blue))))
+   `(helm-ff-executable    ((t (:foreground ,light1))))
+   `(helm-ff-file          ((t (:background ,dark0 :foreground ,light1))))
+   `(helm-ff-symlink       ((t (:foreground ,neutral_aqua))))
+   `(helm-moccur-buffer    ((t (:foreground ,bright_blue))))
+   `(helm-selection        ((t (:inherit highlight))))
+   `(helm-source-header    ((t (:background ,dark0 :foreground ,bright_yellow :weight bold :underline nil))))
+   `(helm-visible-mark     ((t (:background ,faded_orange :foreground ,light1))))
+
    ;; highlight-indentation-mode
    `(highlight-indentation-current-column-face ((t (:background ,dark3))))
    `(highlight-indentation-face                ((t (:background ,dark2))))
